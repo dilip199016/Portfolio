@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #0c1022;
+    background: #10152c;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -26,23 +26,34 @@ body {
     align-items: center;
     z-index: 100;
 }
-
 .logo {
-    font-size: 25px;
-    color: aliceblue;
+    font-size: 35px; 
+    color: rgb(207, 207, 229);
     text-decoration: none;
-    font-weight: 600;
-    pointer-events: none;
-    opacity: 0;
-    animation: slideTop .5s ease forwards;
+    font-weight: 700; 
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 30px;
+    
 }
+
+.logo:hover {
+    border: 2px solid forestgreen;
+    color: rgb(179, 11, 11);
+    background-color: rgb(228, 206, 9);
+    box-shadow: 0px 0px 10px rgb(8, 225, 29),0px 0px 10px greenyellow;
+
+}
+
+
 
 .navbar a {
     display: inline-block;
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 35px;
     opacity: 0;
     animation: slideTop .5s ease forwards;
@@ -124,7 +135,7 @@ body {
 }
 
 .btn::before {
-    content: '';
+     content: ''; 
     position: absolute;
     top: 0;
     left: 0;
@@ -488,7 +499,14 @@ justify-content: first baseline;
     border-radius: 15px;
   }
 
-  
+  .skills h2:hover{
+    background-color: #007bff;
+   
+    color: rgb(81, 228, 65);
+    width: 180px;
+    box-shadow: 0px 0px 10px rgb(215,58,15),0px 0px 10px rgb(215, 58, 15);
+
+  }
 
   .skills ul {
     list-style-type: none;
@@ -646,7 +664,7 @@ justify-content: first baseline;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
     text-align: center;
-    background: #333;
+    background: #8d0657;
     margin-top: 60px;
     position: relative;
   }
@@ -655,7 +673,19 @@ justify-content: first baseline;
     margin-bottom: 20px;
     color: #fff;
   }
-  
+  .contact h2:hover{
+    color: yellow;
+    opacity: 80%;
+    background-color: #264759;
+    width: 250px;
+    height: 60px;
+    margin-left:31% ;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
   .contact p {
     margin-bottom: 20px;
     color: #ddd;
@@ -690,10 +720,29 @@ justify-content: first baseline;
   }
 
   .fas.fa-mobile-alt{
-    color: red;
+    color: rgb(8, 0, 255);
+    font-size: 35px;
+    background-color: yellow;
   }
  .fab.fa-whatsapp{
     color:green;
+    font-size: 35px;
+    background-color: rgb(40, 38, 38);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
    
  }
-  
+ .fab.fa-whatsapp:hover{
+    background-color: red;
+    color: rgb(4, 47, 4);
+ }
+
+
+
+ .myphoto{
+   
+    width: 350px;
+    height: 450px;
+ }
