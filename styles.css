@@ -1,0 +1,117 @@
+/* Add your CSS styles here */
+body{
+    background-color: aquamarine;
+    width: 99%;
+    height: 99%;
+}
+/* Example style for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#movie-search{
+ margin-left: 580px;
+ margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+#search-button{
+    background-color: black;
+    color: white;
+
+}
+.sorting-options{
+    margin-top: 5px;
+   /* align-items: center; */
+    margin-left: 500px;
+}
+.active-tab{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 25px;
+}
+#favorites-tab{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 25px;
+}
+
+
+.active-tab:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+}
+#favorites-tab:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+}
+.movie-list{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+ 
+}
+.Movie1{
+    
+   height: 100px;
+   width: 85px;
+   border: 2px solid black;
+align-items: baseline;
+text-align: center;
+}
+.Movie2{
+    
+    height: 100px;
+    width: 85px;
+    border: 2px solid black;
+ align-items: baseline;
+ text-align: center;
+ }
+ .Movie3{
+    
+    height: 100px;
+    width: 85px;
+    border: 2px solid black;
+ align-items: baseline;
+ text-align: center;
+ }
+ .Movie4{
+    
+    height: 100px;
+    width: 85px;
+    border: 2px solid black;
+ align-items: baseline;
+ text-align: center;
+ }
+ .Movie6{
+    
+    height: 100px;
+    width: 85px;
+    border: 2px solid black;
+ align-items: baseline;
+ text-align: center;
+ }
+ .Movie7{
+    
+    height: 100px;
+    width: 85px;
+    border: 2px solid black;
+ align-items: baseline;
+ text-align: center;
+ }
+
+
+ 
